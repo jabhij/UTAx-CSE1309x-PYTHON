@@ -1,6 +1,7 @@
 # Type your code here
 val = input('Enter a int:')
 
+# Conditions goes here
 age = int(val)
 if (age <= 0):
    print ("UNBORN")
