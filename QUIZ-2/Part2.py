@@ -1,5 +1,5 @@
 # Type your code here
-val = input('Enter a int:')
+val = input('Enter an int:')
 
 # Conditions goes here
 age = int(val)
