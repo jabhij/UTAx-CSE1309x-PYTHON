@@ -16,3 +16,13 @@ Then it should return:
 None 
 """
 
+# Function Declaration
+def get_count(heads, legs):
+    # Logic for Calculation
+    dogs = int((legs - heads * 2) / 2)
+    chicks = (heads - dogs)
+    # Condition if any of the animal 
+    # is found '0'
+    if dogs < 0 or chicks < 0:
+        return None
+    return [chicks, dogs
