@@ -6,3 +6,11 @@ then your function should return a list such as:
 ['we', 'python', 'much']
 """
 
+# Function Dec.
+def get_alternate(L):
+    # An Empty list
+    new_list = []
+    # Accessing range
+    for i in range(0, len(L), 2):
+        new_list.append(L[i])
+    return new_list
