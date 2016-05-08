@@ -7,10 +7,10 @@ Write a function named find_mismatch that accepts two strings as input arguments
 Capital letters are considered the same as lower case letters. Here are some examples:
 
 First string	   Second String  	Function return
-Python	         Java	            2
-Hello There      helloothere	    1
+Python	         Java	               2
+Hello There      helloothere	       1
 sin              sink           	2 (note not the same length)
-dog	             Dog	            0
+dog	          Dog	            0
 
 """
 
