@@ -16,7 +16,7 @@ sin	        sink            1 (Inserting a single character at the end)
 dog	        Dog	            0
 poke      	spoke           1 (Inserting a single character at the start)
 poker     	poke	         1 (Deleting a single character from the end)
-programing	programming	  1 (Inserting a single character)
+programing	programming	   1 (Inserting a single character)
 
 """
 
