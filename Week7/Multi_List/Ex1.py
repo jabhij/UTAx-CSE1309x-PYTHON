@@ -4,3 +4,11 @@ columns in each row is the same. (Do not use python's built-in sum() function).
 
 """
 
+# Function Dec.
+def add_list(L):
+    add = 0
+    # Accessing all elements
+    # Adding them
+    for i in L:
+        add += i
+    return add
