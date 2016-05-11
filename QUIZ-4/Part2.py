@@ -6,3 +6,15 @@ the same as an upper case character.
 
 """
 
+# Function Dec.
+def count_consonants(str):
+    # Converting in uppercase and removing spaces
+    str_list = str.upper().replace(' ', '')
+    L = ['A', 'E', 'I', 'O', 'U']
+    count = 0
+    # Accessing chars of string
+    for i in str_list:
+        # Logic
+        if i not in L:
+            count += 1
+    return count
