@@ -15,3 +15,12 @@ Then your function should return a boolean value:
  
 """
 
+def multiplication_check(mat1, mat2):
+    # Counting rows and columns
+    columns_count = len(mat1[0])
+    rows_count = len(mat2)
+    # Checking 
+    if columns_count == rows_count:
+        return True
+    else:
+        return False
