@@ -4,11 +4,3 @@ value of each column. Assume that the length of columns is consistent in each ro
 
 """
 
-.# Function Dec.
-def get_max(L):
-    new_list = []
-    # Iterating through rows
-    for i in L:
-        # Max and Append
-        new_list.append(max(i))
-    return new_list
