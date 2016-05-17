@@ -5,3 +5,13 @@ counted as a character. Also note that a small letter character is equal to a ca
 
 """
 
+# Function Dec.
+def letter_count(string):
+    dict = {}
+    # Removing whitespaces and converting in uppercase
+    string = string.replace(' ', '')
+    string.upper()
+    # Iterating through the string
+    for char in string:
+        dict[char] = string.count(char)
+    return dict 
