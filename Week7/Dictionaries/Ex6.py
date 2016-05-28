@@ -4,4 +4,4 @@ be individual vowels and the values should be the total count of those vowels. Y
 counted as a character. Also note that a small letter vowel is equal to a capital letter vowel.
 
 """
- def
+ 
