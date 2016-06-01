@@ -5,3 +5,12 @@ counted as a character. Also note that a small letter vowel is equal to a capita
 
 """
  
+def count_vowel(string):
+    dict = {}
+    string = string.replace(' ', '')
+    string.upper()
+    vowels = ['A', 'E', 'I', 'O' 'U']
+    for char in string:
+        if char in vowels:
+            dict[char] = string.count(char)
+    return dict
